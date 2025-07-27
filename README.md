@@ -1,115 +1,99 @@
-```md
-# 🌟 Velvet Glow
+# ✨ Velvet Glow – Frontend Design Task
 
-A responsive, clean, and pixel-perfect single-page frontend implementation based on a Figma design challenge for the **Frontend Developer** position at **SM Technology**.
+This is a single-page frontend assessment task built for **SM Technology**, replicating a provided Figma design using modern web technologies. The result is a clean, fully responsive user interface with pixel-perfect accuracy.
 
-## 🔗 Live Preview
-
-👉 [velvet-glow.vercel.app](https://velvet-glow.vercel.app)
+🔗 **Live Demo**: [velvet-glow.vercel.app](https://velvet-glow.vercel.app)  
+📁 **Repository**: [GitHub – ratul544388/velvet-glow](https://github.com/ratul544388/velvet-glow)
 
 ---
 
-## 📂 Folder Structure
+## 🛠️ Tech Stack
+
+* **Framework**: [React 19](https://react.dev/) with [Vite 7](https://vitejs.dev/)
+* **Styling**: Tailwind CSS v4, `clsx`, `tailwind-merge`
+* **Component System**: Radix UI
+* **Icons**: Lucide React
+* **Carousel**: Embla Carousel
+* **Routing**: React Router v7
+* **Utilities**: `class-variance-authority`
+* **Linting & Formatting**: ESLint, Prettier, Tailwind Prettier Plugin
+
+---
+
+## 📁 Project Structure
 
 ```
 
-velvet-glow/
-├── public/              # Static assets
+.
+├── public/
 ├── src/
-│   ├── components/      # Reusable components
-│   ├── constants/       # Static data/constants
-│   ├── layouts/         # Layout components
-│   ├── lib/             # Utilities and helper functions
-│   ├── pages/           # Page-level components
-│   ├── routes/          # Application routes
-│   └── index.tsx        # Entry point
-├── tailwind.config.ts   # Tailwind CSS config
-├── vite.config.ts       # Vite config
-├── .eslintrc            # ESLint rules
-├── .prettierrc          # Prettier config
-└── package.json         # Project metadata and scripts
+│   ├── components/         
+│   ├── constants/
+│   ├── layouts/
+│   ├── lib/
+│   ├── pages/
+│   ├── routes/
+└── README.md
 
 ````
 
 ---
 
-## ⚙️ Tech Stack
-
-- **React 19**
-- **Vite 7**
-- **Tailwind CSS**
-- **Radix UI**
-- **React Router v7**
-- **Lucide Icons**
-- **Embla Carousel**
-- **ESLint + Prettier**
-
----
-
 ## 🚀 Getting Started
 
-Follow these steps to run the project locally:
-
-### 1. Clone the Repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/ratul544388/velvet-glow.git
 cd velvet-glow
 ````
 
-### 2. Install Dependencies
-
-Make sure you have **Node.js (v18 or later)** installed.
-
-Then run:
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Run the Development Server
+### 3. Run the development server
 
 ```bash
 npm run dev
 ```
 
-Visit `http://localhost:5173` to view the app in your browser.
+Visit [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 ---
 
-## 📌 Assignment Summary
+## 🧪 Scripts
 
-* **Company**: SM Technology
-* **Position**: Frontend Developer
-* **Task**: Recreate a Figma design as a single-page application
-* **Submitted**: 27 July 2025
-* **Submission Method**: GitHub Repo + Live Deployment
-
----
-
-## ✅ Features Implemented
-
-* Pixel-perfect implementation
-* Fully responsive on all devices
-* Modern UI using Tailwind and Radix UI
-* Clean and maintainable component structure
-* Accessible and semantic HTML
+* `npm run dev` – Start development server
+* `npm run build` – Build for production
+* `npm run preview` – Preview production build locally
+* `npm run lint` – Run ESLint
 
 ---
 
-## 👤 Author
+## ✨ Features
+
+* ✅ Pixel-perfect Figma implementation
+* 🌐 Fully responsive for all screen sizes
+* ⚙️ Modern component architecture using Radix UI
+* 🎨 Clean UI design with Tailwind CSS v4
+* 🚀 Fast build and dev experience via Vite
+* 🧼 Code linted and formatted with ESLint + Prettier
+
+---
+
+## 🙌 Acknowledgements
+
+* Special thanks to **SM Technology** for providing this assessment opportunity.
+* UI designed and inspired from the official Figma task shared via email.
+
+---
+
+## 📬 Contact
 
 **Ratul Hossain**
-Frontend Developer
-📧 [ratul.hossain.dev@gmail.com](mailto:ratul.hossain.dev@gmail.com)
-📍 Dhaka 1310, Bangladesh
-🔗 [GitHub Profile](https://github.com/ratul544388)
-
----
-
-## 🛑 License
-
-This project was developed as part of a job recruitment task.
-All rights reserved to the original Figma design owner.
-
-```
+📍 Dhaka, Bangladesh
+📧 Email: [ratul.hossain.dev@gmail.com](mailto:ratul.hossain.dev@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/ratul-hossain-dev) • [GitHub](https://github.com/ratul544388)
