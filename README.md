@@ -1,77 +1,115 @@
 ```md
-# Velvet Glow ✨
+# 🌟 Velvet Glow
 
-A clean, responsive, and pixel-perfect implementation of a Figma design challenge provided by SM Technology as part of the Frontend Developer hiring process.
+A responsive, clean, and pixel-perfect single-page frontend implementation based on a Figma design challenge for the **Frontend Developer** position at **SM Technology**.
 
 ## 🔗 Live Preview
 
 👉 [velvet-glow.vercel.app](https://velvet-glow.vercel.app)
 
-## 📁 Project Structure
+---
+
+## 📂 Folder Structure
 
 ```
 
 velvet-glow/
-├── public/
+├── public/              # Static assets
 ├── src/
-│   ├── components/       # Reusable UI components
-│   ├── constants/        # Static data and constants
-│   ├── layouts/          # Page-level layout wrappers
-│   ├── lib/              # Utility functions and helpers
-│   ├── pages/            # Route-specific pages
-│   ├── routes/           # App route configurations
-│   └── index.tsx         # Root application entry
-├── .eslintrc             # Linting rules
-├── .prettierrc           # Code formatting config
-├── tailwind.config.ts    # Tailwind setup
-├── postcss.config.js     # PostCSS setup
-└── vite.config.ts        # Vite config
+│   ├── components/      # Reusable components
+│   ├── constants/       # Static data/constants
+│   ├── layouts/         # Layout components
+│   ├── lib/             # Utilities and helper functions
+│   ├── pages/           # Page-level components
+│   ├── routes/          # Application routes
+│   └── index.tsx        # Entry point
+├── tailwind.config.ts   # Tailwind CSS config
+├── vite.config.ts       # Vite config
+├── .eslintrc            # ESLint rules
+├── .prettierrc          # Prettier config
+└── package.json         # Project metadata and scripts
 
-```
+````
+
+---
 
 ## ⚙️ Tech Stack
 
-- **Framework**: React 19 + Vite
-- **Styling**: Tailwind CSS with Prettier plugin
-- **UI Components**: Radix UI, Lucide Icons, Embla Carousel
-- **Routing**: React Router v7
-- **Linting & Formatting**: ESLint, Prettier, Tailwind Prettier Plugin
+- **React 19**
+- **Vite 7**
+- **Tailwind CSS**
+- **Radix UI**
+- **React Router v7**
+- **Lucide Icons**
+- **Embla Carousel**
+- **ESLint + Prettier**
 
-## 🚀 Scripts
+---
 
-| Command      | Description                      |
-|--------------|----------------------------------|
-| `npm run dev`     | Start development server (Vite)   |
-| `npm run build`   | Build for production              |
-| `npm run preview` | Preview production build locally  |
-| `npm run lint`    | Run ESLint on project files       |
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ratul544388/velvet-glow.git
+cd velvet-glow
+````
+
+### 2. Install Dependencies
+
+Make sure you have **Node.js (v18 or later)** installed.
+
+Then run:
+
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:5173` to view the app in your browser.
+
+---
 
 ## 📌 Assignment Summary
 
-- **Company**: SM Technology  
-- **Role**: Frontend Developer  
-- **Task**: Replicate a provided Figma design  
-- **Technologies Allowed**: HTML, CSS, JS or any frontend framework  
-- **Submitted On**: 27 July 2025  
-- **Submitted Via**: GitHub Repo & Live Link  
+* **Company**: SM Technology
+* **Position**: Frontend Developer
+* **Task**: Recreate a Figma design as a single-page application
+* **Submitted**: 27 July 2025
+* **Submission Method**: GitHub Repo + Live Deployment
+
+---
 
 ## ✅ Features Implemented
 
-- Fully responsive layout across devices
-- Clean and modular component structure
-- Semantic HTML with accessible elements
-- Optimized for performance using Vite
-- Pixel-accurate match with Figma design
+* Pixel-perfect implementation
+* Fully responsive on all devices
+* Modern UI using Tailwind and Radix UI
+* Clean and maintainable component structure
+* Accessible and semantic HTML
 
-## 🧑‍💻 Developed By
+---
 
-**Ratul Hossain**  
-Frontend Developer  
-📧 ratul.hossain.dev@gmail.com  
+## 👤 Author
+
+**Ratul Hossain**
+Frontend Developer
+📧 [ratul.hossain.dev@gmail.com](mailto:ratul.hossain.dev@gmail.com)
+📍 Dhaka 1310, Bangladesh
 🔗 [GitHub Profile](https://github.com/ratul544388)
 
 ---
 
-## 📃 License
+## 🛑 License
 
-This project is intended for evaluation purposes only and is not licensed for commercial use.
+This project was developed as part of a job recruitment task.
+All rights reserved to the original Figma design owner.
+
+```
